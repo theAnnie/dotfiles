@@ -7,7 +7,14 @@ function rmc
 end
 
 
-source ~/.asdf/asdf.fish
-set -x PATH $HOME/src/telnyx/tel-apps/bin $PATH
-set -x ELIXIR_HEX_KEY 64d16e9cea566d163a5bea779617b07e
+abbr -a -U -- gaa 'git add -A'
+abbr -a -U -- gap 'git add -p'
+abbr -a -U -- gcb 'git checkout'
+abbr -a -U -- gco 'git commit -m'
+abbr -a -U -- gp 'git push origin'
+abbr -a -U -- gpl 'git pull origin'
+abbr -a -U -- gpm 'git pull origin master'
+abbr -a -U -- gpo 'git pull origin'
+abbr -a -U -- gpu 'git push origin'
+abbr -a -U -- l 'ls -l'
 
