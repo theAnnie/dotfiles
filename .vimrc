@@ -13,6 +13,7 @@ Plugin 'slashmili/alchemist.vim'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'mhinz/vim-mix-format'
 Plugin 'dracula/vim', { 'name': 'dracula' }
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -35,3 +36,13 @@ let g:netrw_liststyle = 3
 let g:netrw_winsize = 25
 let g:netrw_browse_split = 4
 let g:netrw_altv = 1
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+let g:mix_format_on_save = 1
+let g:dracula_italic = 0
+
+set number
+set belloff=all
+
+color dracula
