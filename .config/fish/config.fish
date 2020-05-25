@@ -17,4 +17,5 @@ abbr -a -U -- gpm 'git pull origin master'
 abbr -a -U -- gpo 'git pull origin'
 abbr -a -U -- gpu 'git push origin'
 abbr -a -U -- l 'ls -l'
+abbt -a -U -- j 'jump'
 
