@@ -12,8 +12,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'slashmili/alchemist.vim'
 Plugin 'elixir-editors/vim-elixir'
 Plugin 'mhinz/vim-mix-format'
-Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'owickstrom/vim-colors-paramount'
 
 set mouse=a
 " All of your Plugins must be added before the following line
@@ -40,10 +40,13 @@ let g:netrw_altv = 1
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
-let g:mix_format_on_save = 1
-let g:dracula_italic = 0
+"let g:mix_format_on_save = 1
 
 set number
 set belloff=all
 
-color dracula
+" theme
+:colorscheme paramount
+
+" mark lines longer than 80
+:let w:m1=matchadd('ErrorMsg', '\%>80v.\+', -1)

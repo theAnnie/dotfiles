@@ -2,13 +2,13 @@
 # export PATH=$HOME..$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/andrzej/.oh-my-zsh"
+export ZSH="/Users/endrju/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="avit"
+ZSH_THEME="minimal"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -108,9 +108,5 @@ alias rmc="docker ps -a | awk '{print $1}' | grep -v CONTAINER | xargs docker rm
 
 alias gpm="git pull origin master"
 alias gpo="git push origin"
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#‘/Users/andrzej/.asdf/asdf.sh’
-#‘/Users/andrzej/.asdf/completions/asdf.bash’
-# export ELIXIR_HEX_KEY=:)
+eval "$(jump shell)"
