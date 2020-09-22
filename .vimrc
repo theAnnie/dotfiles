@@ -50,3 +50,5 @@ set belloff=all
 
 " mark lines longer than 80
 :let w:m1=matchadd('ErrorMsg', '\%>80v.\+', -1)
+
+set backspace=indent,eol,start " backspace over everything in insert mode
